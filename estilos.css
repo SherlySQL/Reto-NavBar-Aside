@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /*para que cuando yo presiono uno de los link del Nav, la pagina se deslize hacia abajo o arriba sola al destino del link*/
+}
+
+body {
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin: auto;
+    max-width: 1000px;
+    border: 1px solid black;
+}
+
+header {
+    text-align: center;
+    line-height: 100px; /*interlineado o espacio de altura entre lineas*/
+    /* alinea vertical debe tener la misma altura de la caja */
+    color: white;
+    border-bottom: 3px dashed black;
+}
+
+nav {
+    background-color: rgb(106, 197, 228);
+    height: 50px;
+    line-height: 30px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+#content {
+    float: left;
+    width: 755px;
+    background-color: green;
+    min-height: 500px;
+  
+}
+
+
+aside {
+    float: right;
+    background-color: orange;
+    min-height: 500px;
+    padding: 10px;
+}
+
+
+.article {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+
+.article h2 {
+    font-size: 25px;
+}
+
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
